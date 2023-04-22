@@ -11,8 +11,8 @@
             <img class="bulan" src="bulan.png">
         </header>
         <main class="">
-            <h1 style="color:rgb(247, 208, 96); font-size:10vw">selamat idulfitri</h1>
-            <p style="color:rgb(247, 208, 96); font-size:5vw" >mohon maaf lahir dan batin. Saya Gung Wah Pratama meminta maaf jika ada salah kata dan sebagainya </p>
+            <h1 class="judul" style="color:rgb(247, 208, 96); font-size:10vw">selamat idulfitri</h1>
+            <p class="selamat" style="color:rgb(255, 214, 80); font-size:5vw" >mohon maaf lahir dan batin. Saya Gung Wah Pratama meminta maaf jika ada salah kata dan sebagainya </p>
             <a href="https://youtu.be/xvFZjo5PgG0"><button class="my-button">AMBIL THR</button></a>
         </main>
     </body>
@@ -38,12 +38,13 @@
   cursor: pointer; /* Mengatur tampilan cursor saat diarahkan ke tombol */
   /* Menambahkan style hover (opsional) */
   transition: background-color 0.3s ease-in-out; /* Efek transisi saat tombol dihover */
-  width: 25%;
-  height: 50px;
   font-size:3vw
 }
 
 .my-button:hover {
   background-color: rgb(255, 207, 65); /* Mengatur warna background saat tombol dihover */
+}
+@media screen and (min-width: 500px) {.judul{font-size:3vw }
+.selamat{font-size : 2vw;}
 }
 </style>
